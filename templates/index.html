@@ -18,3 +18,30 @@
 </footer>
 </body>
 </html>
+<head>
+...
+<link rel="icon" href="{{ url_for('static', filename='Cat03.jpg') }}">
+</head>
+<h2>
+<img alt="Avatar" src="{{ url_for('static', filename='images/avatar.png') }}">
+{{ name }}'s Watchlist
+</h2>
+...
+<img alt="Walking Totoro" src="{{ url_for('static', filename='images/totoro.gif') }}">
+
+<head>
+...
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="t
+ext/css">
+</head>
+<h2>
+<img alt="Avatar" class="avatar" src="{{ url_for('static', filename='images/avatar.
+png') }}">
+{{ name }}'s Watchlist
+</h2>
+...
+<ul class="movie-list">
+...
+</ul>
+<img alt="Walking Totoro" class="totoro" src="{{ url_for('static', filename='images/tot
+oro.gif') }}">
